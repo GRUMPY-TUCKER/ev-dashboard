@@ -10,3 +10,12 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Submission 
+
+- https://colab.research.google.com/drive/152haVkTnUlByNpxcPlEKJxeUBwbOzfZL?usp=sharing
+- I have used first of all some data analytics tool to findout the year trends and due to time constraint I was able to give the year trends graph into my website only.
+- For data analytics to find out the optimised results I have used Pandas,Numpy and Matplotlib
+- Live Dashboard link :
+- https://ev-dashboard-sigma.vercel.app/
+- Deployed in Vercel
