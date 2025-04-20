@@ -1,0 +1,12 @@
+{
+    "top_counties": {"King": 37502, "Clark": 4838, "Snohomish": 2553, "Kitsap": 2154, "Thurston": 1524, "Cowlitz": 440, "Jefferson": 393, "Yakima": 306, "Island": 152, "Clallam": 53}, 
+    "top_cities": {"Seattle": 10427, "Bellevue": 4573, "Vancouver": 3008, "Kirkland": 2751, "Sammamish": 2599, "Tukwila": 2205, "Redmond": 2104, "Bothell": 1744, "Renton": 1437, "Shoreline": 1391},
+    "top_wmi_counts": {"5YJ": 14557, "7SA": 8570, "1G1": 3482, "1N4": 3443, "KND": 1955, "1C4": 1399, "YV4": 1097, "KM8": 1065, "JTM": 962, "JTD": 911},
+    "top_makers": {"TESLA": 23127, "NISSAN": 3909, "CHEVROLET": 3543, "BMW": 2214, "FORD": 2028, "KIA": 1980, "TOYOTA": 1568, "JEEP": 1399, "VOLKSWAGEN": 1328, "HYUNDAI": 1234},
+    "top_model_counts": {"MODEL Y": 10389, "MODEL 3": 8808, "LEAF": 3770, "MODEL S": 2150, "BOLT EV": 1828, "MODEL X": 1765, "WRANGLER": 1171, "VOLT": 1085, "ID.4": 1007, "PACIFICA": 908},
+    "year_trend": {"1998": 1, "2000": 1, "2002": 1, "2008": 2, "2010": 10, "2011": 199, "2012": 390, "2013": 1145, "2014": 914, "2015": 1266, "2016": 1468, "2017": 2275, "2018": 4092, "2019": 3029, "2020": 3290, "2021": 5227, "2022": 7813, "2023": 16791, "2024": 2086},
+    "top_postal_codes": {"98188": 2194, "98052": 2103, "98033": 1401, "98034": 1348, "98006": 1338, "98074": 1277, "98004": 1202, "98075": 1198, "98125": 1032, "98008": 935},
+    "top_electric_range_counts": {"0": 26031, "215": 1906, "32": 1385, "21": 1192, "220": 1167, "84": 1098, "238": 999, "25": 950, "291": 688, "208": 666},
+    "top_legislative_districts_counts": {"41": 4887, "45": 4396, "48": 4352, "11": 3779, "46": 2818, "36": 2715, "43": 2432, "18": 2296, "1": 2135, "33": 2024},
+    "top_utility_counts": {"PUGET SOUND ENERGY INC||CITY OF TACOMA - (WA)": 24995, "CITY OF SEATTLE - (WA)|CITY OF TACOMA - (WA)": 12454, "PUGET SOUND ENERGY INC": 6241, "BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF CLARK COUNTY - (WA)": 4744, "BONNEVILLE POWER ADMINISTRATION||PUD NO 1 OF COWLITZ COUNTY": 440, "BONNEVILLE POWER ADMINISTRATION||PUGET SOUND ENERGY INC||PUD NO 1 OF JEFFERSON COUNTY": 380, "PACIFICORP": 280, "BONNEVILLE POWER ADMINISTRATION||PUD 1 OF SNOHOMISH COUNTY": 133, "BONNEVILLE POWER ADMINISTRATION||PACIFICORP||PUD NO 1 OF CLARK COUNTY - (WA)": 94, "NO KNOWN ELECTRIC UTILITY SERVICE": 42}
+}

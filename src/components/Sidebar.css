@@ -1,0 +1,80 @@
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: rgba(8, 3, 39, 0.8); 
+    color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar .menu li {
+    display: flex; 
+    align-items: center;
+    margin: 10px 0;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.sidebar .menu li:hover {
+    background-color: rgba(52, 73, 94, 0.8); 
+}
+
+.sidebar .menu li svg {
+    margin-right: 10px; 
+}
+
+.sidebar .toggle-btn {
+    background: none;
+    border: none;
+    color: #ecf0f1;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
+
+.sidebar .toggle-btn:hover {
+    color: #bdc3c7;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+}
+
+.profile-icon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.profile-role {
+    font-size: 14px;
+    color: #bdc3c7;
+    margin: 0;
+}

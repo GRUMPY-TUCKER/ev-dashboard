@@ -1,0 +1,179 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.card {
+    background: rgb(212, 202, 202);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;  
+    min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.year-trend-chart {
+    display: flex;
+    gap: 15px;  
+    padding: 15px;  
+    width: 100%;
+    max-width: calc(100vw - 230px);  
+}
+.line-chart {
+    flex: 1;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    height: 400px;
+}
+.year-trend-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+}
+.year-trend-container .year-trend-card {
+    flex: 1;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    height: 500px;
+}
+.chart-container {
+    flex: 2;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    height: 500px;
+}
+
+.app.dark {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.app.dark .line-chart {
+    background: #2d2d2d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.app.dark .header {
+    color: #ffffff;
+}
+
+.app.dark .ev-description {
+    color: #cccccc;
+}
+
+.app.dark main {
+    background-color: #1a1a1a;
+}
+
+.app.dark .topbar {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.app {
+    min-height: 100vh;
+    transition: all 0.3s ease;
+}
+
+.line-chart {
+    transition: all 0.3s ease;
+}
+.records {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.records-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.record-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.record-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.record-item h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.record-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.app.dark .record-item {
+    background: #2d2d2d;
+}
+
+.app.dark .record-item h3 {
+    color: #fff;
+}
+
+.app.dark .record-item p {
+    color: #ccc;
+}
